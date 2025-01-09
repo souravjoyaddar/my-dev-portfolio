@@ -6,6 +6,9 @@
   font-variation-settings: "wdth" 100;
 }
 /* Shared Style */
+.secondary-bg {
+  background-color: #fff8f3;
+}
 .text-primary {
   color: #fd6e0a;
 }
@@ -27,6 +30,16 @@
 }
 /* .btn-contact {
   }  */
+.section-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
 
 /* Nav Styles */
 nav {
@@ -85,5 +98,31 @@ ul li a {
 }
 .banner-profile-img {
   width: 580px;
-  /* height: 676px; */
+}
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* About Styles */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-around;
+}
+.about-item {
+  font-size: 20px;
+  line-height: 30px;
+}
+/* .item-title {
+} */
+.item-description {
+  font-weight: bold;
 }
