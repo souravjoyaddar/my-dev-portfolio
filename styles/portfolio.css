@@ -28,8 +28,11 @@
 .btn-cv {
   margin-right: 30px;
 }
-/* .btn-contact {
-  }  */
+.btn-contact {
+  background-color: #fff8f3;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+}
 .section-title {
   font-weight: bold;
   font-size: 35px;
